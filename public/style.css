@@ -1,0 +1,49 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .container {
+    background-image: linear-gradient(to right, #ddcfe6, #eab4b5);
+  }
+  .header {
+    color: #643f57;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .full {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .count-word {
+    margin-top: 50px;
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(to right, #7d23a7, #aa348b);
+    color: #fffffe;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 15px;
+    box-shadow: 3px 5px rgb(64, 61, 61);
+    border-radius: 10px;
+  }
+  textarea {
+    width: 75%;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+  }
+  .btn {
+    margin: 20px 10px;
+    padding: 5px 10px;
+    background-color: #7e35d8;
+    border: none;
+    border-radius: 5px;
+    color: #fffffe;
+    cursor: pointer;
+    box-shadow: 2px 3px rgb(64, 61, 61);
+    font-size: 16px;
+    font-weight: 500;
+  }
